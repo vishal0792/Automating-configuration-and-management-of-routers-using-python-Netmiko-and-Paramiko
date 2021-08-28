@@ -1,0 +1,132 @@
+Connecting to Router IP:10.110.161.22
+Printing the interface which are down in the routers
+FastEthernet2/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet2/1            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+Printing the interface which are up in the routers
+FastEthernet0/0            10.110.161.22   YES NVRAM  up                    up      
+FastEthernet1/0            10.10.1.2       YES NVRAM  up                    up      
+FastEthernet1/1            10.10.1.9       YES NVRAM  up                    up      
+FastEthernet2/1            192.168.1.1     YES manual up                    up      
+FastEthernet3/1            192.168.2.1     YES manual up                    up      
+Loopback0                  22.22.22.22     YES NVRAM  up                    up      
+Printing only ECMP routes present in the routers
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.4', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.110.161.20', 'nexthop_if': 'FastEthernet0/0', 'uptime': '00:48:17'}
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.4', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.10.1.1', 'nexthop_if': 'FastEthernet1/0', 'uptime': '00:48:17'}
+
+Connecting to Router IP:10.110.161.20
+Printing the interface which are down in the routers
+FastEthernet2/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet2/1            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+Printing the interface which are up in the routers
+FastEthernet0/0            10.110.161.20   YES NVRAM  up                    up      
+FastEthernet1/0            10.10.1.1       YES NVRAM  up                    up      
+FastEthernet1/1            10.10.1.5       YES NVRAM  up                    up      
+FastEthernet2/1            192.168.1.1     YES manual up                    up      
+FastEthernet3/0            192.168.2.1     YES manual up                    up      
+Loopback0                  11.11.11.11     YES NVRAM  up                    up      
+Printing only ECMP routes present in the routers
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.8', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.110.161.22', 'nexthop_if': 'FastEthernet0/0', 'uptime': '00:48:17'}
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.8', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.10.1.2', 'nexthop_if': 'FastEthernet1/0', 'uptime': '00:48:17'}
+
+Connecting to Router IP:10.110.161.20
+Printing the interface which are down in the routers
+FastEthernet2/0            192.168.1.1     YES NVRAM  administratively down down    
+FastEthernet2/1            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            192.168.2.1     YES NVRAM  administratively down down    
+Printing the interface which are up in the routers
+FastEthernet0/0            10.110.161.20   YES NVRAM  up                    up      
+FastEthernet1/0            10.10.1.1       YES NVRAM  up                    up      
+FastEthernet1/1            10.10.1.5       YES NVRAM  up                    up      
+FastEthernet2/0            192.168.1.1     YES NVRAM  up                    up      
+FastEthernet2/1            192.168.2.1     YES manual up                    up      
+Loopback0                  11.11.11.11     YES NVRAM  up                    up      
+Printing only ECMP routes present in the routers
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.8', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.110.161.22', 'nexthop_if': 'FastEthernet0/0', 'uptime': '00:40:49'}
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.8', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.10.1.2', 'nexthop_if': 'FastEthernet1/0', 'uptime': '00:40:49'}
+
+Connecting to Router IP:10.110.161.22
+Printing the interface which are down in the routers
+FastEthernet2/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet2/1            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+Printing the interface which are up in the routers
+FastEthernet0/0            10.110.161.22   YES NVRAM  up                    up      
+FastEthernet1/0            10.10.1.2       YES NVRAM  up                    up      
+FastEthernet1/1            10.10.1.9       YES NVRAM  up                    up      
+FastEthernet2/0            192.168.1.1     YES manual up                    up      
+FastEthernet2/1            192.168.2.1     YES manual up                    up      
+Loopback0                  22.22.22.22     YES NVRAM  up                    up      
+Printing only ECMP routes present in the routers
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.4', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.110.161.20', 'nexthop_if': 'FastEthernet0/0', 'uptime': '00:40:49'}
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.4', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.10.1.1', 'nexthop_if': 'FastEthernet1/0', 'uptime': '00:40:49'}
+
+Connecting to Router IP:10.110.161.20
+Printing the interface which are down in the routers
+FastEthernet2/0            192.168.1.1     YES NVRAM  administratively down down    
+FastEthernet2/1            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            192.168.2.1     YES NVRAM  administratively down down    
+Printing the interface which are up in the routers
+FastEthernet0/0            10.110.161.20   YES NVRAM  up                    up      
+FastEthernet1/0            10.10.1.1       YES NVRAM  up                    up      
+FastEthernet1/1            10.10.1.5       YES NVRAM  up                    up      
+FastEthernet2/1            192.168.1.1     YES manual up                    up      
+FastEthernet3/1            192.168.2.1     YES NVRAM  up                    up      
+Loopback0                  11.11.11.11     YES NVRAM  up                    up      
+Printing only ECMP routes present in the routers
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.8', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.110.161.22', 'nexthop_if': 'FastEthernet0/0', 'uptime': '01:02:51'}
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.8', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.10.1.2', 'nexthop_if': 'FastEthernet1/0', 'uptime': '01:02:51'}
+
+Connecting to Router IP:10.110.161.22
+Printing the interface which are down in the routers
+FastEthernet2/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet2/1            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+Printing the interface which are up in the routers
+FastEthernet0/0            10.110.161.22   YES NVRAM  up                    up      
+FastEthernet1/0            10.10.1.2       YES NVRAM  up                    up      
+FastEthernet1/1            10.10.1.9       YES NVRAM  up                    up      
+FastEthernet2/0            192.168.1.1     YES manual up                    up      
+FastEthernet2/1            192.168.2.1     YES manual up                    up      
+Loopback0                  22.22.22.22     YES NVRAM  up                    up      
+Printing only ECMP routes present in the routers
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.4', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.110.161.20', 'nexthop_if': 'FastEthernet0/0', 'uptime': '01:02:46'}
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.4', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.10.1.1', 'nexthop_if': 'FastEthernet1/0', 'uptime': '01:02:46'}
+
+Connecting to Router IP:10.110.161.22
+Printing the interface which are down in the routers
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1            unassigned      YES NVRAM  administratively down down    
+Printing the interface which are up in the routers
+FastEthernet0/0            10.110.161.22   YES NVRAM  up                    up      
+FastEthernet1/0            10.10.1.2       YES NVRAM  up                    up      
+FastEthernet1/1            10.10.1.9       YES NVRAM  up                    up      
+FastEthernet2/0            192.168.1.1     YES manual up                    up      
+FastEthernet2/1            192.168.2.1     YES manual up                    up      
+Loopback0                  22.22.22.22     YES NVRAM  up                    up      
+Printing only ECMP routes present in the routers
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.4', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.110.161.20', 'nexthop_if': 'FastEthernet0/0', 'uptime': '01:03:41'}
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.4', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.10.1.1', 'nexthop_if': 'FastEthernet1/0', 'uptime': '01:03:41'}
+
+Connecting to Router IP:10.110.161.20
+Printing the interface which are down in the routers
+FastEthernet2/0            192.168.1.1     YES NVRAM  administratively down down    
+FastEthernet3/0            unassigned      YES NVRAM  administratively down down    
+Printing the interface which are up in the routers
+FastEthernet0/0            10.110.161.20   YES NVRAM  up                    up      
+FastEthernet1/0            10.10.1.1       YES NVRAM  up                    up      
+FastEthernet1/1            10.10.1.5       YES NVRAM  up                    up      
+FastEthernet2/1            192.168.1.1     YES manual up                    up      
+FastEthernet3/1            192.168.2.1     YES NVRAM  up                    up      
+Loopback0                  11.11.11.11     YES NVRAM  up                    up      
+Printing only ECMP routes present in the routers
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.8', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.110.161.22', 'nexthop_if': 'FastEthernet0/0', 'uptime': '01:03:46'}
+{'protocol': 'O', 'type': 'IA', 'network': '10.10.1.8', 'mask': '30', 'distance': '110', 'metric': '2', 'nexthop_ip': '10.10.1.2', 'nexthop_if': 'FastEthernet1/0', 'uptime': '01:03:46'}
+

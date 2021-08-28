@@ -1,0 +1,7 @@
+interface FastEthernet1/1
+description "Towards R2"
+ip address 10.10.1.10 255.255.255.252
+no shutdown
+router ospf 44
+log-adjacency-changes
+network 10.10.1.8 0.0.0.3 area 2
